@@ -10,4 +10,8 @@ public abstract class BasicGame extends Game {
     public SpriteBatch batch;
     protected final AssetManager assetManager = new AssetManager();
     public int currentLevel;
+
+    public AssetManager getAssetManager() {
+        return assetManager;
+    }
 }
