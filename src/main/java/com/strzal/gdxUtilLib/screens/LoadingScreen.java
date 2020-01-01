@@ -1,4 +1,4 @@
-package com.strzal.gdx.screens;
+package com.strzal.gdxUtilLib.screens;
 
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.assets.AssetManager;
@@ -13,9 +13,9 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.strzal.gdx.BasicGame;
-import com.strzal.gdx.loading.LoadingPaths;
-import com.strzal.gdx.utils.GdxUtils;
+import com.strzal.gdxUtilLib.BasicGame;
+import com.strzal.gdxUtilLib.loading.LoadingPaths;
+import com.strzal.gdxUtilLib.utils.GdxUtils;
 
 public class LoadingScreen extends ScreenAdapter {
 

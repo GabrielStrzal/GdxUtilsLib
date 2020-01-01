@@ -16,6 +16,24 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'com.badlogicgames.gdx', name: 'gdx', version: '1.9.10'
-    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
-    annotationProcessor  group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
 }
+
+
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+    from sourceSets.main.resources
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
+
+

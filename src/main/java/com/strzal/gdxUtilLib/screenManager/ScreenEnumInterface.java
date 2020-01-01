@@ -1,4 +1,4 @@
-package com.strzal.gdx.screenManager;
+package com.strzal.gdxUtilLib.screenManager;
 
 import com.badlogic.gdx.Screen;
 

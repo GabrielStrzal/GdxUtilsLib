@@ -1,4 +1,4 @@
-package com.strzal.gdx.loading;
+package com.strzal.gdxUtilLib.loading;
 
 import java.util.List;
 

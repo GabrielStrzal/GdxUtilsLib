@@ -1,7 +1,7 @@
-package com.strzal.gdx.screenManager;
+package com.strzal.gdxUtilLib.screenManager;
 
 import com.badlogic.gdx.Screen;
-import com.strzal.gdx.BasicGame;
+import com.strzal.gdxUtilLib.BasicGame;
 
 /**
  * Based on http://www.pixnbgames.com/blog/libgdx/how-to-manage-screens-in-libgdx/
